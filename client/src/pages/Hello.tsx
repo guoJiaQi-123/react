@@ -1,3 +1,3 @@
-export default function hello() {
-  return <h2>hello react!</h2>;
+export default function Hello(props: { msg: string }) {
+  return <h2>{props.msg}</h2>;
 }
