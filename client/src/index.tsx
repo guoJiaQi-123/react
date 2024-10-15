@@ -1,18 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import Hello from "./pages/Hello";
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-);
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import Hello from './pages/Hello';
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    <Hello msg="hello react"></Hello>
-    <Hello msg="你好 react"></Hello>
-  </React.StrictMode>
+	<React.StrictMode>
+		{/* <App /> */}
+		<Hello msg="hello react" age={18}></Hello>
+		<Hello msg="你好 react"></Hello>
+	</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
