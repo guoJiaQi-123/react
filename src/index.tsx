@@ -6,6 +6,7 @@ import P1 from './pages/P1';
 import P2 from './pages/P2';
 import P3 from './pages/P3';
 import P4 from "./pages/P4";
+import P8 from "./pages/P8";
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
@@ -26,7 +27,7 @@ const stu3 = {id: 3, name: '长宏', sex: '男', age: 30, photo: '/image/3.png'}
 // );
 
 root.render(
-    <P4></P4>
+    <P8></P8>
 );
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
